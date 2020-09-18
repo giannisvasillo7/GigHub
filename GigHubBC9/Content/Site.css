@@ -1,0 +1,189 @@
+﻿body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+span.field-validation-error {
+    color: red;
+    font-weight: bold;
+}
+
+.verticalSpace {
+    margin-top: 5px;
+}
+
+.verticalSpace2 {
+    margin-top: 10px;
+}
+
+.verticalSpace3 {
+    margin-top: 20px;
+}
+
+.verticalSpace4 {
+    margin-top: 30px;
+}
+
+/*Bootstrap Overrides*/
+.navbar-inverse {
+    background-color: #ff4342;
+    border-color: #ff4342;
+}
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #fff;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: #fff;
+    }
+
+    .navbar-inverse .notifications {
+        position: relative;
+    }
+
+        .navbar-inverse .notifications .badge {
+            position: absolute;
+            top: 8px;
+            right: -1px;
+            background: #a80a0a;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+        }
+
+body {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    font-size: 17px;
+    /*padding: 20px 15px;*/
+    height: 44px;
+    border-radius: 9px;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #ef2f2e;
+}
+
+    .form-control:focus {
+        box-shadow: none;
+        border-color: deepskyblue;
+    }
+
+    .btn {
+        /*font-size: 17px;
+        padding: 7px 20px;*/
+        border-radius: 9px;
+    }
+
+/*Page Level Styles*/
+.gigs {
+    list-style: none;
+}
+
+.gigs > li {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+    .gigs > li .date {
+        background: red;
+        color: white;
+        width: 60px;
+        text-align:center;
+        border-radius: 8px;
+    }
+
+        .gigs > li .month {
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 2px 6px;
+        }
+
+    .gigs > li .day {
+        background: #f7f7f7;
+        color: #333;
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+
+            .gigs > li .details {
+                position: absolute;
+                top: 0;
+                left: 70px;
+            }
+
+    .gigs > li .details .artist {
+        font-weight: bold;
+        display: block;
+    }
+
+                .gigs > li .details .genre {
+                    font-size: 15px;
+                    display: block;
+                    margin-bottom: 4px;
+                }
+
+    .gigs > li .actions {
+        font-size: 15px;
+        display: none;
+    }
+
+    .gigs > li:hover .actions {
+        display: block;
+    }
+
+.popover-notifications .popover-content {
+    padding: 0;
+}
+
+.popover-notifications ul.notifications {
+    list-style: none;
+    padding-left: 0;
+}
+
+.popover-notifications ul.notifications > li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.popover-notifications ul.notifications > li:last-child {
+    border-bottom: none;
+}
+
+.popover-notifications ul.notifications .highlight {
+    font-weight: bold;
+}
+
+#searchGigs {
+    width: 300px;
+}
